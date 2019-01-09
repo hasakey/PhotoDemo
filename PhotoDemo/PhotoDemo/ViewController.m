@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "PhotoNav.h"
+#import "AlbumPickVC.h"
 
 @interface ViewController ()
 
@@ -16,8 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIButton *button = [UIButton new];
+    [button setTitle:@"选取照片" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(selectPhoto) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.mas_equalTo(self.view);
+    }];
 }
 
+-(void)selectPhoto
+{
+    AlbumPickVC *albumPickVC = [AlbumPickVC new];
+    PhotoNav *Nav = [[PhotoNav alloc] initWithRootViewController:albumPickVC];
+    [self presentViewController:Nav animated:YES completion:nil];
+}
 
 @end

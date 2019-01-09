@@ -15,6 +15,14 @@
 		3F745B6921E43BED0034ABE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745B6821E43BED0034ABE7 /* main.m */; };
 		3F745B7321E43BED0034ABE7 /* PhotoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745B7221E43BED0034ABE7 /* PhotoDemoTests.m */; };
 		3F745B7E21E43BED0034ABE7 /* PhotoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745B7D21E43BED0034ABE7 /* PhotoDemoUITests.m */; };
+		3F745B8F21E449220034ABE7 /* PhotoNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745B8E21E449220034ABE7 /* PhotoNav.m */; };
+		3F745B9221E44D040034ABE7 /* PhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745B9121E44D040034ABE7 /* PhotoVC.m */; };
+		3F745B9521E47D880034ABE7 /* AlbumPickVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745B9421E47D880034ABE7 /* AlbumPickVC.m */; };
+		3F745B9A21E4840C0034ABE7 /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745B9921E4840C0034ABE7 /* PhotoManager.m */; };
+		3F745B9E21E486760034ABE7 /* AlbumPickCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745B9D21E486760034ABE7 /* AlbumPickCell.m */; };
+		3F745BA221E48AD30034ABE7 /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745BA121E48AD30034ABE7 /* AlbumModel.m */; };
+		3F745BA521E492640034ABE7 /* LodingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F745BA421E492640034ABE7 /* LodingView.m */; };
+		47F10CC1345AD45513E0F2A3 /* Pods_PhotoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBB28C29953E5519DAF30B5 /* Pods_PhotoDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		173116167ED2D3F031C13218 /* Pods-PhotoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoDemo/Pods-PhotoDemo.release.xcconfig"; sourceTree = "<group>"; };
 		3F745B5621E43BEB0034ABE7 /* PhotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F745B5921E43BEB0034ABE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F745B5A21E43BEB0034ABE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,22 @@
 		3F745B7921E43BED0034ABE7 /* PhotoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F745B7D21E43BED0034ABE7 /* PhotoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoDemoUITests.m; sourceTree = "<group>"; };
 		3F745B7F21E43BED0034ABE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F745B8D21E449220034ABE7 /* PhotoNav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoNav.h; sourceTree = "<group>"; };
+		3F745B8E21E449220034ABE7 /* PhotoNav.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoNav.m; sourceTree = "<group>"; };
+		3F745B9021E44D040034ABE7 /* PhotoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoVC.h; sourceTree = "<group>"; };
+		3F745B9121E44D040034ABE7 /* PhotoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoVC.m; sourceTree = "<group>"; };
+		3F745B9321E47D880034ABE7 /* AlbumPickVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumPickVC.h; sourceTree = "<group>"; };
+		3F745B9421E47D880034ABE7 /* AlbumPickVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumPickVC.m; sourceTree = "<group>"; };
+		3F745B9821E4840C0034ABE7 /* PhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoManager.h; sourceTree = "<group>"; };
+		3F745B9921E4840C0034ABE7 /* PhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoManager.m; sourceTree = "<group>"; };
+		3F745B9C21E486760034ABE7 /* AlbumPickCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumPickCell.h; sourceTree = "<group>"; };
+		3F745B9D21E486760034ABE7 /* AlbumPickCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumPickCell.m; sourceTree = "<group>"; };
+		3F745BA021E48AD30034ABE7 /* AlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumModel.h; sourceTree = "<group>"; };
+		3F745BA121E48AD30034ABE7 /* AlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumModel.m; sourceTree = "<group>"; };
+		3F745BA321E492640034ABE7 /* LodingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LodingView.h; sourceTree = "<group>"; };
+		3F745BA421E492640034ABE7 /* LodingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LodingView.m; sourceTree = "<group>"; };
+		8BBB28C29953E5519DAF30B5 /* Pods_PhotoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D019C8AA5261DECBE3A7AFD1 /* Pods-PhotoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoDemo/Pods-PhotoDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F10CC1345AD45513E0F2A3 /* Pods_PhotoDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E37713A52E65DE8A2CD75E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D019C8AA5261DECBE3A7AFD1 /* Pods-PhotoDemo.debug.xcconfig */,
+				173116167ED2D3F031C13218 /* Pods-PhotoDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3F745B4D21E43BEA0034ABE7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +120,8 @@
 				3F745B7121E43BED0034ABE7 /* PhotoDemoTests */,
 				3F745B7C21E43BED0034ABE7 /* PhotoDemoUITests */,
 				3F745B5721E43BEB0034ABE7 /* Products */,
+				17E37713A52E65DE8A2CD75E /* Pods */,
+				676F218DA1B6CAE97E5235AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +138,7 @@
 		3F745B5821E43BEB0034ABE7 /* PhotoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3F745B8B21E448D20034ABE7 /* PhotoClass */,
 				3F745B5921E43BEB0034ABE7 /* AppDelegate.h */,
 				3F745B5A21E43BEB0034ABE7 /* AppDelegate.m */,
 				3F745B5C21E43BEB0034ABE7 /* ViewController.h */,
@@ -132,6 +170,67 @@
 			path = PhotoDemoUITests;
 			sourceTree = "<group>";
 		};
+		3F745B8B21E448D20034ABE7 /* PhotoClass */ = {
+			isa = PBXGroup;
+			children = (
+				3F745B9F21E48AC40034ABE7 /* Model */,
+				3F745B9B21E4865F0034ABE7 /* View */,
+				3F745B9721E483F10034ABE7 /* Tools */,
+				3F745B8C21E448EF0034ABE7 /* VC */,
+			);
+			path = PhotoClass;
+			sourceTree = "<group>";
+		};
+		3F745B8C21E448EF0034ABE7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				3F745B8D21E449220034ABE7 /* PhotoNav.h */,
+				3F745B8E21E449220034ABE7 /* PhotoNav.m */,
+				3F745B9021E44D040034ABE7 /* PhotoVC.h */,
+				3F745B9121E44D040034ABE7 /* PhotoVC.m */,
+				3F745B9321E47D880034ABE7 /* AlbumPickVC.h */,
+				3F745B9421E47D880034ABE7 /* AlbumPickVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		3F745B9721E483F10034ABE7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3F745B9821E4840C0034ABE7 /* PhotoManager.h */,
+				3F745B9921E4840C0034ABE7 /* PhotoManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3F745B9B21E4865F0034ABE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F745B9C21E486760034ABE7 /* AlbumPickCell.h */,
+				3F745B9D21E486760034ABE7 /* AlbumPickCell.m */,
+				3F745BA321E492640034ABE7 /* LodingView.h */,
+				3F745BA421E492640034ABE7 /* LodingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F745B9F21E48AC40034ABE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F745BA021E48AD30034ABE7 /* AlbumModel.h */,
+				3F745BA121E48AD30034ABE7 /* AlbumModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		676F218DA1B6CAE97E5235AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BBB28C29953E5519DAF30B5 /* Pods_PhotoDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F745B8221E43BED0034ABE7 /* Build configuration list for PBXNativeTarget "PhotoDemo" */;
 			buildPhases = (
+				29CBE5D101B545A5F79B6C78 /* [CP] Check Pods Manifest.lock */,
 				3F745B5221E43BEA0034ABE7 /* Sources */,
 				3F745B5321E43BEA0034ABE7 /* Frameworks */,
 				3F745B5421E43BEA0034ABE7 /* Resources */,
+				8F1174DB02350D01203A11E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,13 +358,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29CBE5D101B545A5F79B6C78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1174DB02350D01203A11E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhotoDemo/Pods-PhotoDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoDemo/Pods-PhotoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F745B5221E43BEA0034ABE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F745B8F21E449220034ABE7 /* PhotoNav.m in Sources */,
+				3F745B9A21E4840C0034ABE7 /* PhotoManager.m in Sources */,
+				3F745B9E21E486760034ABE7 /* AlbumPickCell.m in Sources */,
 				3F745B5E21E43BEB0034ABE7 /* ViewController.m in Sources */,
 				3F745B6921E43BED0034ABE7 /* main.m in Sources */,
+				3F745BA221E48AD30034ABE7 /* AlbumModel.m in Sources */,
+				3F745B9521E47D880034ABE7 /* AlbumPickVC.m in Sources */,
+				3F745BA521E492640034ABE7 /* LodingView.m in Sources */,
+				3F745B9221E44D040034ABE7 /* PhotoVC.m in Sources */,
 				3F745B5B21E43BEB0034ABE7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +580,7 @@
 		};
 		3F745B8321E43BED0034ABE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D019C8AA5261DECBE3A7AFD1 /* Pods-PhotoDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +599,7 @@
 		};
 		3F745B8421E43BED0034ABE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173116167ED2D3F031C13218 /* Pods-PhotoDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
