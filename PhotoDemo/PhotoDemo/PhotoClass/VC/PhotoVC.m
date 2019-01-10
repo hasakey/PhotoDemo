@@ -10,6 +10,12 @@
 
 @interface PhotoVC ()
 
+/* collection */
+@property (nonatomic, weak) UICollectionView *showCollectioView;
+
+/* 解析出来的照片的个数 */
+@property (nonatomic, strong) NSMutableArray<IJSAssetModel *> *assetModelArr;
+
 @end
 
 @implementation PhotoVC
